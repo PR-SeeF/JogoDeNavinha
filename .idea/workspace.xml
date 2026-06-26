@@ -1,29 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="df219474-94b4-493d-839d-b117190d713f" name="Changes" comment="" />
+    <list default="true" id="dfcb80f8-7dcf-4442-b5d2-609031b042ba" name="Changes" comment="merge branch to main">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="level" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PR-SeeF&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/PR-SeeF/JogoDeNavinha.git",
+    "accountId": "ffeb135e-80c3-4641-b010-ecefb3c2fa8c"
+  }
 }]]></component>
-  <component name="ProjectId" id="3FeUoDRGxbthsQeZB1bPb51OPee" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3EgYABtk7LaZ2h0rsxMMJ9icBqD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Const.executor": "Run",
+    "Python.Game.executor": "Run",
+    "Python.Menu.executor": "Run",
+    "Python.Score.executor": "Run",
+    "Python.game.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.menu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/SeeF/PycharmProjects/JogoDeNavinhas"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SeeF\PycharmProjects\MoutainShooter" />
+      <recent name="C:\Users\SeeF\PycharmProjects\MoutainShooter\asset" />
+      <recent name="C:\Users\SeeF\PycharmProjects\MoutainShooter\code" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SeeF\PycharmProjects\MoutainShooter\code" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MoutainShooter" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -33,12 +115,203 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="df219474-94b4-493d-839d-b117190d713f" name="Changes" comment="" />
-      <created>1782435200552</created>
+      <changelist id="dfcb80f8-7dcf-4442-b5d2-609031b042ba" name="Changes" comment="" />
+      <created>1780601533473</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1782435200552</updated>
+      <updated>1780601533473</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1780604549072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780604549072</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1780607178841</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780607178841</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add classes generated from starUML">
+      <option name="closed" value="true" />
+      <created>1780607386046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780607386046</updated>
+    </task>
+    <task id="LOCAL-00004" summary="structure menu">
+      <option name="closed" value="true" />
+      <created>1780612255068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780612255068</updated>
+    </task>
+    <task id="LOCAL-00005" summary="texte menu">
+      <option name="closed" value="true" />
+      <created>1780778737379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780778737379</updated>
+    </task>
+    <task id="LOCAL-00006" summary="text menu completed">
+      <option name="closed" value="true" />
+      <created>1780782011423</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780782011423</updated>
+    </task>
+    <task id="LOCAL-00007" summary="menu selection">
+      <option name="closed" value="true" />
+      <created>1780791310910</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780791310910</updated>
+    </task>
+    <task id="LOCAL-00008" summary="background level 1&#10;parallax effect">
+      <option name="closed" value="true" />
+      <created>1780796026788</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1780796026788</updated>
+    </task>
+    <task id="LOCAL-00009" summary="remake parallax effect">
+      <option name="closed" value="true" />
+      <created>1780971855944</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1780971855944</updated>
+    </task>
+    <task id="LOCAL-00010" summary="text stats level1">
+      <option name="closed" value="true" />
+      <created>1781057201629</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1781057201629</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add players &#10;add enemy's&#10;move objects">
+      <option name="closed" value="true" />
+      <created>1781234134466</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1781234134466</updated>
+    </task>
+    <task id="LOCAL-00012" summary="creating mediator patter&#10;&#10;enemy destruction">
+      <option name="closed" value="true" />
+      <created>1781374760315</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1781374760315</updated>
+    </task>
+    <task id="LOCAL-00013" summary="shots player&#10;shots enemy">
+      <option name="closed" value="true" />
+      <created>1781382679408</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1781382679408</updated>
+    </task>
+    <task id="LOCAL-00014" summary="bugs and fixes">
+      <option name="closed" value="true" />
+      <created>1781467717496</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1781467717496</updated>
+    </task>
+    <task id="LOCAL-00015" summary="collision entity&#10;counter life&#10;points system">
+      <option name="closed" value="true" />
+      <created>1781652007232</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1781652007232</updated>
+    </task>
+    <task id="LOCAL-00016" summary="score&#10;level 2">
+      <option name="closed" value="true" />
+      <created>1781659869578</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1781659869578</updated>
+    </task>
+    <task id="LOCAL-00017" summary="bug and fixes">
+      <option name="closed" value="true" />
+      <created>1782175193029</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1782175193029</updated>
+    </task>
+    <task id="LOCAL-00018" summary="SQLite3 for score&#10;proxy design pattern">
+      <option name="closed" value="true" />
+      <created>1782266419167</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1782266419167</updated>
+    </task>
+    <task id="LOCAL-00019" summary="merge branch to main">
+      <option name="closed" value="true" />
+      <created>1782435254581</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1782435254581</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add classes generated from starUML" />
+    <MESSAGE value="structure menu" />
+    <MESSAGE value="texte menu" />
+    <MESSAGE value="text menu completed" />
+    <MESSAGE value="menu selection" />
+    <MESSAGE value="background level 1&#10;parallax effect" />
+    <MESSAGE value="remake parallax effect" />
+    <MESSAGE value="text stats level1" />
+    <MESSAGE value="add players &#10;add enemy's&#10;move objects" />
+    <MESSAGE value="creating mediator patter&#10;&#10;enemy destruction" />
+    <MESSAGE value="shots player&#10;shots enemy" />
+    <MESSAGE value="bugs and fixes" />
+    <MESSAGE value="collision entity&#10;counter life&#10;points system" />
+    <MESSAGE value="score&#10;level 2" />
+    <MESSAGE value="bug and fixes" />
+    <MESSAGE value="SQLite3 for score&#10;proxy design pattern" />
+    <MESSAGE value="merge branch to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge branch to main" />
   </component>
 </project>
