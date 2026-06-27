@@ -34,6 +34,10 @@ class Game:
                     level = Level(self.window, 'Level2', menu_return, player_score, player_health)
                     level_return = level.run(player_score, player_health, enemy_clock)
                     if level_return:
+                        enemy_clock = ENEMY_CLOCK - 750
+                        level = Level(self.window, 'Level3', menu_return, player_score, player_health)
+                        level_return = level.run(player_score, player_health, enemy_clock)
+                    if level_return:
                         score.save_score(menu_return, player_score)
             elif menu_return == MENU_OPTION[3]:
                 controls.show_controls()

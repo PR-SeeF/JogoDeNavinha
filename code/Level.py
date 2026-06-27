@@ -19,7 +19,7 @@ from code.Player import Player
 class Level:
     def __init__(self, window, name, game_mode, player_score: list[int], player_health: list[int]):
         self.enemy_clock = 0
-        self.timeout = 20000  # 20 sec
+        self.timeout = 25000  # 25 sec
         self.window = window
         self.name = name
         self.game_mode = game_mode
