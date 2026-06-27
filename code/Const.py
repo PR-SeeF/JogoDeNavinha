@@ -12,6 +12,10 @@ COLOR_GREEN = (0, 128, 0)
 COLOR_CIAN = (0, 128, 128)
 COLOR_BLACK = (0, 0, 0)
 
+CONTROLS = ('CONTROLS',
+            'Player1    /   MOVE    ↑ - TOP    → - RIGHT   ← - LEFT  ↓ - DOWN    /   SHOOT - RCTRL',
+            'Player2    /   MOVE    W - TOP    D - RIGHT   A - LEFT  S - DOWN    /   SHOOT - LCTRL',)
+
 # E
 
 ENTITY_DAMAGE = {'Level1Bg0': 0,
@@ -108,10 +112,10 @@ ENTITY_SPEED = {'Level1Bg0': 0,
                 }
 
 ENTITY_POSITION = {'Player1': (10, WINDOW_HEIGHT / 2),
-                 'Player2': (10, WINDOW_HEIGHT / 2),
-                 'Enemy1': 1,
-                 'Enemy2': 1,
-                 }
+                   'Player2': (10, WINDOW_HEIGHT / 2),
+                   'Enemy1': 1,
+                   'Enemy2': 1,
+                   }
 
 EVENT_ENEMY = pygame.USEREVENT + 1
 ENEMY_CLOCK = 2000
@@ -121,6 +125,7 @@ EVENT_TIMEOUT = pygame.USEREVENT + 2
 MENU_OPTION = ('NEW GAME 1P',
                'NEW GAME 2P - CO-OP',
                'NEW GAME 2P - COMPETITIVE',
+               'CONTROLS',
                'SCORE',
                'EXIT')
 # P
@@ -136,19 +141,18 @@ PLAYER_RIGHT = {'Player1': pygame.K_RIGHT,
 PLAYER_SHOOT = {'Player1': pygame.K_RCTRL,
                 'Player2': pygame.K_LCTRL}
 
-
 SCORE_POSITION = {'Title': (WINDOW_WIDTH / 2, 50),
-             'EnterName': (WINDOW_WIDTH / 2, 80),
-             'Label': (WINDOW_WIDTH / 2, 90),
-             'Name': (WINDOW_WIDTH / 2, 110),
-             0: (WINDOW_WIDTH / 2, 110),
-             1: (WINDOW_WIDTH / 2, 130),
-             2: (WINDOW_WIDTH / 2, 150),
-             3: (WINDOW_WIDTH / 2, 170),
-             4: (WINDOW_WIDTH / 2, 190),
-             5: (WINDOW_WIDTH / 2, 210),
-             6: (WINDOW_WIDTH / 2, 230),
-             7: (WINDOW_WIDTH / 2, 250),
-             8: (WINDOW_WIDTH / 2, 270),
-             9: (WINDOW_WIDTH / 2, 290),
-             }
+                  'EnterName': (WINDOW_WIDTH / 2, 80),
+                  'Label': (WINDOW_WIDTH / 2, 90),
+                  'Name': (WINDOW_WIDTH / 2, 110),
+                  0: (WINDOW_WIDTH / 2, 110),
+                  1: (WINDOW_WIDTH / 2, 130),
+                  2: (WINDOW_WIDTH / 2, 150),
+                  3: (WINDOW_WIDTH / 2, 170),
+                  4: (WINDOW_WIDTH / 2, 190),
+                  5: (WINDOW_WIDTH / 2, 210),
+                  6: (WINDOW_WIDTH / 2, 230),
+                  7: (WINDOW_WIDTH / 2, 250),
+                  8: (WINDOW_WIDTH / 2, 270),
+                  9: (WINDOW_WIDTH / 2, 290),
+                  }
